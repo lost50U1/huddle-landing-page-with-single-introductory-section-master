@@ -1,0 +1,58 @@
+:root {
+  --bs-body-font-family: "Open Sans", sans-serif;
+  --bs-body-bg: var(--violet);
+  --white: hsl(0, 0%, 100%);
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 1rem 0;
+  background-image: url("/images/bg-mobile.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.w-75 {
+  width: 90% !important;
+}
+
+.logo {
+  height: auto;
+  width: 200px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.fa-brands::before {
+  width: 16px !important;
+}
+
+i:hover {
+  color: var(--soft-magenta) !important;
+  border-color: var(--soft-magenta) !important;
+}
+
+button {
+  color: var(--violet);
+}
+
+button:hover {
+  background-color: var(--soft-magenta) !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: var(--white);
+}
+
+@media (min-width: 768px) {
+  body {
+    background-image: url("/images/bg-desktop.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
