@@ -30,7 +30,7 @@ h1 {
   font-family: "Poppins", sans-serif !important;
 }
 
-.fa-brands::before {
+i::before {
   width: 16px !important;
 }
 
