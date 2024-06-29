@@ -12,7 +12,7 @@ body {
   height: 100vh;
   width: 100%;
   padding: 1rem 0;
-  background-image: url("/images/bg-mobile.svg");
+  background-image: url("images/bg-mobile.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -51,7 +51,7 @@ button:hover {
 
 @media (min-width: 768px) {
   body {
-    background-image: url("/images/bg-desktop.svg");
+    background-image: url("images/bg-desktop.svg");
     background-size: contain;
     background-repeat: no-repeat;
   }
